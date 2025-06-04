@@ -4,5 +4,5 @@ format:
   html:
     toc: true
     theme: lux
-    image: "Lascano-Marlaina-Resume - Google Docs.png"
+    image: Lascano-Marlaina-Resume - Google Docs.png
 ---
