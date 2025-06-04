@@ -1,7 +1,4 @@
 ---
 title: "resume"
-theme: lux
-about:
-  template: none
   image: "Lascano-Marlaina-Resume - Google Docs.png"
 ---
