@@ -1,0 +1,13 @@
+---
+title: "free for all"
+---
+
+Hobbies
+
+Club Frisbee
+
+Art
+
+```{r}
+#insert photo gallery 
+```

@@ -1,9 +1,30 @@
 ---
 title: "About"
+theme: lux
+about:
+  template: broadside
+  image: Profile1.JPG
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
-About this site
+Marlaina Lascano is an environmental studies student at UC Santa Barbara with a passion for adventure and sustainability. When she’s not out exploring ecosystems , you can find her on the Ultimate Frisbee field or in the art studio.
 
-```{r}
-1 + 1
-```
+## Education
+
+University of California, Santa Barbara \| Santa Barbara, CA \| Bachelors of Science \| Sept 2021 - June 2025 \| With an emphasis in Marine Biodiversity and Climate Change
+
+## Experience
+
+**UCSB ITS Admin Unit** \| Admin Assisant \| May 2024 - Current
+
+**UCSB Cheadle Center and The Nature Conservancy** \| Trail Educator Intern \| October 2024 - December 2024
+
+**UCSB Business & Financial/Procurement Services** \| Gateway/Surplus Intern \| August 2023-June 2024
+
+**UCSB Furniture Services** \| Student Assistant Supervisor \| June 2022 - May 2024

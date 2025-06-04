@@ -1,13 +1,17 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "marlainalascano.github.io"
+  title: "Marlaina Lascano"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - project page.qmd
+      - free for all.qmd
+      - resume.qmd
 
 format:
   html:
