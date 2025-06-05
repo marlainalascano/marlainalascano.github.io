@@ -1,8 +1,3 @@
 ---
-title: "My Resume"
-format:
-  html:
-    toc: true
-    theme: lux
-    image: Lascano-Marlaina-Resume - Google Docs.png
+title: "Resume"
 ---

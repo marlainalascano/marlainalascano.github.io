@@ -22,6 +22,7 @@ General
 I grew up in Turlock, California with my family of 6. I am on the UCSB Club Ultimate Frisbee team and I enjoy hiking, running and art.
 
 ```{r}
+!(Art_3)
 #photos 
 #some art
 #some frisbee

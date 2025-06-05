@@ -1,5 +1,6 @@
 ---
 title: "free for all"
+image: Art_1.jpg
 ---
 
 Hobbies
@@ -9,5 +10,7 @@ Club Frisbee
 Art
 
 ```{r}
-#insert photo gallery 
+
+
+
 ```
