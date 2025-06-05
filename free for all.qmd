@@ -1,6 +1,8 @@
 ---
 title: "free for all"
-image: Art_1.jpg
+about:
+  template: broadside
+  image: Art_1.jpg
 ---
 
 Hobbies
