@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>project page – Marlaina Lascano</title>
+<title>Projects – Marlaina Lascano</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,6 +73,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,19 +131,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./project page.html" aria-current="page"> 
-<span class="menu-text">project page</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./free for all.html"> 
-<span class="menu-text">free for all</span></a>
+<span class="menu-text">My Virtual Sketchbook</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> 
-<span class="menu-text">resume</span></a>
+<span class="menu-text">Resume</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -153,15 +156,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ucsb-courses-and-projects" id="toc-ucsb-courses-and-projects" class="nav-link active" data-scroll-target="#ucsb-courses-and-projects">UCSB Courses and Projects</a></li>
+  <li><a href="#envs-193-ds-statistics-for-environmental-science" id="toc-envs-193-ds-statistics-for-environmental-science" class="nav-link" data-scroll-target="#envs-193-ds-statistics-for-environmental-science">ENVS 193 DS: Statistics for Environmental Science</a></li>
+  <li><a href="#envs-115-energy-and-the-environment" id="toc-envs-115-energy-and-the-environment" class="nav-link" data-scroll-target="#envs-115-energy-and-the-environment">ENVS 115 Energy and the Environment</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">project page</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -178,13 +189,125 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Project Page:</p>
+<section id="ucsb-courses-and-projects" class="level2">
+<h2 class="anchored" data-anchor-id="ucsb-courses-and-projects">UCSB Courses and Projects</h2>
+<p>UCSB has been an overall great experience, but my favorite classes were the ones that gave me real life skills that I will be able to apply to later jobs. Although these classes were often more time consuming and frustrating, I feel they have added more to my repitoure than the easy classes i could have chosen instead.</p>
+</section>
+<section id="envs-193-ds-statistics-for-environmental-science" class="level2">
+<h2 class="anchored" data-anchor-id="envs-193-ds-statistics-for-environmental-science">ENVS 193 DS: Statistics for Environmental Science</h2>
+<p>For my project in this class I collected date for 30 days to track how the amount of protein, and the amount of food I ate everyday affected my overall mood. I then loaded all the data into R Studio to create a figure (represented below) to show how these factors truly affected me.</p>
+<p>To code this First I loaded all the necessary packages. I then loaded my data, which I downloaded from Google Sheets as a csv file. I then calculated the medians of my hourly sleep per night over the 30 days and the amount of protein I ate per day in grams. From here I then started creating grouping variables of High and Low sleep and High and Low protein intake based on my calculated medians . I then was able to create a plot with these group variable that depicted a bar graph and jitter plot at the same time to show the true values. I color coded the sections and labeld my axis. To complete the graph I took off the legend and it was complete.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#insert ggplot for Homework 3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
 </div>
-<p>Protein intake vs Sleep Study</p>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'janitor'
+
+The following objects are masked from 'package:stats':
+
+    chisq.test, fisher.test</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggpubr)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"193_Mood_Data - Sheet1.csv"</span>) <span class="co">#read in data</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 30 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): day
+dbl (4): mood, Protien, alcohol, sleep
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sleep_median <span class="ot">&lt;-</span> <span class="fu">median</span>(my_data<span class="sc">$</span>sleep, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co">#calculate medians</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>protein_median <span class="ot">&lt;-</span> <span class="fu">median</span>(my_data<span class="sc">$</span>Protien, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co">#calculate medians</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> my_data <span class="sc">%&gt;%</span> <span class="co">#creating grouping variables</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sleep_group =</span> <span class="fu">if_else</span>(sleep <span class="sc">&gt;=</span> sleep_median, <span class="st">"High Sleep"</span>, <span class="st">"Low Sleep"</span>), <span class="co">#this creates 2 groups based on the median hours of sleep I got in the 30 data points</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">protein_group =</span> <span class="fu">if_else</span>(Protien <span class="sc">&gt;=</span> protein_median, <span class="st">"High Protein"</span>, <span class="st">"Low Protein"</span>),<span class="co">#this creates 2 groups based on the median hours of protein I got in the 30 data points</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> <span class="fu">paste</span>(sleep_group, protein_group, <span class="at">sep =</span> <span class="st">" &amp; "</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  ) </span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a> group_means <span class="ot">&lt;-</span> my_data <span class="sc">%&gt;%</span> <span class="co">#calculating group means</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(group) <span class="sc">%&gt;%</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_mood =</span> <span class="fu">mean</span>(mood, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(my_data, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">y =</span> mood, <span class="at">fill =</span> group)) <span class="sc">+</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">data =</span> group_means, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">y =</span> mean_mood), <span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.2</span>, <span class="at">size =</span> <span class="dv">2</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span> <span class="co">#greats the black data points</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"High Sleep &amp; High Protein"</span> <span class="ot">=</span> <span class="st">"#1b9e77"</span>, <span class="co">#creates the color coded sections</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"High Sleep &amp; Low Protein"</span> <span class="ot">=</span> <span class="st">"#d95f02"</span>,</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"Low Sleep &amp; High Protein"</span> <span class="ot">=</span> <span class="st">"#7570b3"</span>,</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"Low Sleep &amp; Low Protein"</span> <span class="ot">=</span> <span class="st">"#e7298a"</span>)) <span class="sc">+</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Average Mood by Sleep and Protein Intake"</span>, <span class="co">#title </span></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sleep and Protein Intake Group"</span>, <span class="co">#title of x axis</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Mood Score"</span>, <span class="co">#title of y axis</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Group"</span> </span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="project-page_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="project-page_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure 1. Average Mood by Sleep and Protein Intake This figure shows the spread of my tracked moods based on my protein intake in grams and my sleep in hours. This data shows my tracked mood when I had High Sleep (sleep &gt; 7hours) with High protein (protein &gt; 43.5 grams) in the green column, High sleep with Low protein in the orange column, Low sleep with High protein in the purple column, and Low sleep with low protein in the pink column.</p>
+</section>
+<section id="envs-115-energy-and-the-environment" class="level2">
+<h2 class="anchored" data-anchor-id="envs-115-energy-and-the-environment">ENVS 115 Energy and the Environment</h2>
+<p>Energy and Emissions Workbook</p>
+<p>This class was super interesting as its main focus was the utility sector including power and energy sources. This project involved a week-long personal energy audit to assess the scale of my energy consumption and related carbon emissions across electricity use, heating, and transportation. I tracked 10 activities—such as cooking, commuting, and digital device use—logging their duration or distance and estimating the associated energy use and emissions. Using standardized emission factors and Excel-based calculations, I determined the total energy in kilojoules and CO₂ emissions in kilograms for each activity. The project concluded with a written analysis identifying the most energy-intensive and carbon-heavy activities, offering insights into my personal environmental impact and opportunities for reduction.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/115 workbook.png" class="lightbox" data-gallery="Hobbies" title="Click to enlarge"><img src="images/115 workbook.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024"></a></p>
+</figure>
+</div>
+<figcaption>Click to enlarge</figcaption>
+</figure>
+</div>
+<p>From this workbook I was able to conclude that driving and cooking were my highest emitting activities throughout the week. Part of this assignment was to calculate the CO2 emissions from a recent trip you went on and compare it to your weekly output. That summer I had driven to Seattle WA from Santa Barbara and my emissions from that road trip we almost 100x more than my weekly output. This project help me put into perspective the real harm driving has on the environment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/115woorkbook2.jpg" class="lightbox" data-gallery="Hobbies" title="Click to enlarge"><img src="images/115woorkbook2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024"></a></p>
+</figure>
+</div>
+<figcaption>Click to enlarge</figcaption>
+</figure>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -608,6 +731,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
