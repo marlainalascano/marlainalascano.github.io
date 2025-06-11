@@ -14,16 +14,14 @@ website:
       - free for all.qmd
       - resume.qmd
       
-page-footer:
-    background: light # 
-    left: Copyright 2025, Marlaina Lascano
     
 
 format:
   html:
     theme: 
-      - lux
-      - styles.scss
+       - lux
+       - styles.scss
+   
     css: styles.css
     mainfont: Montserrat 
     toc: true
