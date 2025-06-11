@@ -12,25 +12,25 @@ Click the image to enlarge!
 ::: {layout="[[1, 1], [1, 1]]"}
 ![Pencil drawing of my Grandma when she was young](images/Art_6.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies"}
 
-![Color pencil drawing of musician Steve Lacy](Art_3.jpeg){alt="Color pencil drawing of musician Steve Lacy" group="Hobbies"}
+![Color pencil drawing of musician Steve Lacy](images/Art_3.jpeg){alt="Color pencil drawing of musician Steve Lacy" group="Hobbies"}
 
-![A color pencil drawing of musician Kali Uchis.](Art_4.jpg){alt="A sheepshead I photographed off of Devereux Beach, Fall 2023." group="Hobbies"}
+![A color pencil drawing of musician Kali Uchis.](images/Art_4.jpg){alt="A sheepshead I photographed off of Devereux Beach, Fall 2023." group="Hobbies"}
 
-![Pencil drawing of Albert Einstien.](Art_1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Pencil drawing of Albert Einstien.](images/Art_1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color pencil drawing of Taylor Swift.](Art_5.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color pencil drawing of Taylor Swift.](images/Art_5.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color pencil drawing of Dua Lipa.](Screenshot_20220907_190425.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color pencil drawing of Dua Lipa.](images/Screenshot_20220907_190425.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color Pencil sketch of a guy.](2020-08-17 05.36.27 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color Pencil sketch of a guy.](images/2020-08-17 05.36.27 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color Pencil sketch of a guy and his rat.](2020-08-24 04.47.44 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color Pencil sketch of a guy and his rat.](images/2020-08-24 04.47.44 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Acrylic painting of Jellies.](2020-09-06-124747620.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Acrylic painting of Jellies.](images/2020-09-06-124747620.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color pencil drawing of a Lady.](2020-08-25 05.07.31 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color pencil drawing of a Lady.](images/2020-08-25 05.07.31 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color Pencil sketch of Kanye West.](Screenshot_20220803-161423_Instagram.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color Pencil sketch of Kanye West.](images/Screenshot_20220803-161423_Instagram.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 
-![Color Pencil sketch of Rhianna.](20220429_163207.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+![Color Pencil sketch of Rhianna.](images/20220429_163207.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
 :::
