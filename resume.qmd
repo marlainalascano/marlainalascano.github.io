@@ -2,4 +2,4 @@
 title: "Resume"
 ---
 
-![](Lascano-Marlaina-Resume - Google Docs.png)
+![](Lascano-Marlaina-Resume - Google Docs.png){fig-align="center" width="621"}

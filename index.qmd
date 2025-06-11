@@ -2,7 +2,7 @@
 title: "Marlaina Lascano"
 theme: lux
 about:
-  template: broadside
+  template: jolla
   image: Profile1.JPG
   links:
     - icon: twitter
@@ -15,36 +15,6 @@ about:
 # Choose one: jolla, trestles, solana, marquee, vanilla
 ---
 
-About
+Hello!
 
-General
-
-I grew up in Turlock, California with my family of 6. I am on the UCSB Club Ultimate Frisbee team and I enjoy hiking, running and art.
-
-```{r}
-!(Art_3)
-#photos 
-#some art
-#some frisbee
-#some family 
-
-```
-
-Professional
-
-```{r}
-#about where I have worked. 
-#talk about how I had an internship with The Green intitative fund, and talk about hte Nature Conservacy and also my admin assistant role at ITS
-```
-
-The Green Intitive Fund
-
-In 2023 I was on a team of 3 UCSB Interns working to make an online inventory system for UCSB's Surplus sales. This is how the University recycles inventorial items. All items purchchased by the University needs to go through a tedious procurment process before it can be recycled, trashed, or resold through the Surplus process. Me and my team were hired to create a cleaner system to track all outgoing items and also market them to the University and even the Public through the University's Gateway system. Before our project was funded, this entire process was like a garage sale every Tuesday in a lot. Our goal was to make Items purchasable online to generate more sales.
-
-The Nature Conservacy and The Cheadle center
-
-In the Fall of 2024 I was hired as a "Trail Educator" at the Jack and Laura Dangermond nature preserve located about 40min North of Santa Barbara. Here the goal was to get kids to connect to native California nature. This program targeted the less fortunate schools to get them interested in climate change and general wildife. This was a part of the kids in nature program as well. As a trail educator I led middle schoolers and highschoolers on a 5 mile hike in an Oakland Chapperal where we pointed out native and non native species to the students along the way. This experience truely touched my soul as I felt like I was inspiring young children who don't get these hiking adventours as much as other schools might provide for thier students.
-
-Admin Assistant for UCSB ITS
-
-In 2024 I accepted a role as an Admin assistant for UCSB's Information Technology Services department. Here I learned many clerical skills including Excel, Atlassin, Confluence, Canva, Visio ext. I help do digital filing, purchasing, and billing as well as office task to support the department. I also do some departamental planning for events such as UCSB's annual Forward together event which aims to get the department (who are mostly remote) to bond and get excited as a team.
+I’m Marlaina Lascano — a UCSB Environmental Science undergraduate (Graduating in 10 days), field researcher, and creative force. From the coasts of California to remote ecosystems like the Dangermond Preserve, I’m passionate about sustainability, science communication, and community-driven change. I also have many hobbies that keep me busy and challenged!

@@ -3,15 +3,11 @@ title: "About Me"
 theme: lux
 ---
 
-## 
-
 ## Education
-
-![](images/Screenshot 2025-06-10 at 4.12.17 PM.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
 
 I'm a fourth-year Environmental Studies student at **UC Santa Barbara**, passionate about the intersection of science, sustainability, and community impact. My academic journey has focused on understanding the environmental challenges our world faces—from climate change to conservation—and exploring innovative, practical solutions. Whether I'm conducting field research, analyzing energy systems, or working on community-based projects, I’m driven by a deep commitment to protecting ecosystems and promoting environmental justice.
 
-------------------------------------------------------------------------
+![](images/DSC03630.JPG){fig-align="center" width="389"}
 
 ## Experience
 
@@ -27,12 +23,16 @@ In the Fall of 2024 I was hired as a "Trail Educator" at the Jack and Laura Dang
 
 In 2024 I accepted a role as an Admin assistant for UCSB's Information Technology Services department. Here I learned many clerical skills including Excel, Atlassin, Confluence, Canva, Visio ext. I help do digital filing, purchasing, and billing as well as office task to support the department. I also do some departamental planning for events such as UCSB's annual Forward together event which aims to get the department (who are mostly remote) to bond and get excited as a team.
 
-------------------------------------------------------------------------
-
-## Clubs
+## Hobbies!
 
 ### UCSB Burning Skirts 
 
 ![](Fris 3.jpg){width="345"}![](Fris_1.JPG){width="410"}
 
 I joined UCSB's Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an officer role in a club (social chair), and life long friends.
+
+### Running and Hiking
+
+![](images/1746207670642.jpg){width="444"} ![](images/Run_1.jpg){width="256"}
+
+In the spring of last year, I helped my buddy, Braden Boyles, start a run club to raise for suicide awareness called "Santa Barbarian Run Club". For this club I designed the T-shirt logo and helped organize runs which was a lot of fun! In November I ran my first 1/2 marathon with my mom, who jump started my running itch. In 2023 I tore my ACL and was unable to run for 6 months. As an active person, this was very hard for me, as this is one of my main stress relievers. Now that I can run again, i never want to stop, and I love getting other people into it as well!

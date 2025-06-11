@@ -5,11 +5,61 @@ lightbox: auto
 
 ## UCSB Courses and Projects
 
-UCSB has been an overall great experience, but my favorite classes were the ones thaat gave me real life skills that I will be able to apply to later jobs. Although these classes were often more time consuming and frustrating, I feel they have added more to my repitoure than the easy classes i could have chosen instead.
+UCSB has been an overall great experience, but my favorite classes were the ones that gave me real life skills that I will be able to apply to later jobs. Although these classes were often more time consuming and frustrating, I feel they have added more to my repitoure than the easy classes i could have chosen instead.
 
 ## ENVS 193 DS: Statistics for Environmental Science
 
-![Figure 1. Average Mood by Sleep and Protein Intake This figure shows the spread of my tracked moods based on my protein intake in grams and my sleep in hours. This data shows my tracked mood when I had High Sleep (sleep \> 7hours) with High protein (protein \> 43.5 grams) in the green column, High sleep with Low protein in the orange column, Low sleep with High protein in the purple column, and Low sleep with low protein in the pink column.](images/193 Data table 1.png){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
+For my project in this class I collected date for 30 days to track how the amount of protein, and the amount of food I ate everyday affected my overall mood. I then loaded all the data into R Studio to create a figure (represented below) to show how these factors truly affected me.
+
+To code this First I loaded all the necessary packages. I then loaded my data, which I downloaded from Google Sheets as a csv file. I then calculated the medians of my hourly sleep per night over the 30 days and the amount of protein I ate per day in grams. From here I then started creating grouping variables of High and Low sleep and High and Low protein intake based on my calculated medians . I then was able to create a plot with these group variable that depicted a bar graph and jitter plot at the same time to show the true values. I color coded the sections and labeld my axis. To complete the graph I took off the legend and it was complete.
+
+```{r}
+#load packages
+library(tidyverse)
+library(gt)
+library(janitor)
+library(readxl)
+library(ggpubr)
+library(dplyr)
+
+my_data <- read_csv("193_Mood_Data - Sheet1.csv") #read in data
+
+sleep_median <- median(my_data$sleep, na.rm = TRUE) #calculate medians
+protein_median <- median(my_data$Protien, na.rm = TRUE) #calculate medians
+ 
+my_data <- my_data %>% #creating grouping variables
+  mutate(
+    sleep_group = if_else(sleep >= sleep_median, "High Sleep", "Low Sleep"), #this creates 2 groups based on the median hours of sleep I got in the 30 data points
+    protein_group = if_else(Protien >= protein_median, "High Protein", "Low Protein"),#this creates 2 groups based on the median hours of protein I got in the 30 data points
+    group = paste(sleep_group, protein_group, sep = " & ")
+  ) 
+ 
+ group_means <- my_data %>% #calculating group means
+  group_by(group) %>%
+  summarise(mean_mood = mean(mood, na.rm = TRUE))
+ 
+# Create the plot
+ggplot(my_data, aes(x = group, y = mood, fill = group)) +
+  geom_bar(data = group_means, aes(x = group, y = mean_mood), stat = "identity", alpha = 0.6) +
+  geom_jitter(width = 0.2, size = 2, alpha = 0.8, color = "black") + #greats the black data points
+  scale_fill_manual(values = c("High Sleep & High Protein" = "#1b9e77", #creates the color coded sections
+                               "High Sleep & Low Protein" = "#d95f02",
+                               "Low Sleep & High Protein" = "#7570b3",
+                               "Low Sleep & Low Protein" = "#e7298a")) +
+  labs(
+    title = "Average Mood by Sleep and Protein Intake", #title 
+    x = "Sleep and Protein Intake Group", #title of x axis
+    y = "Mood Score", #title of y axis
+    fill = "Group" 
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+```
+
+Figure 1. Average Mood by Sleep and Protein Intake This figure shows the spread of my tracked moods based on my protein intake in grams and my sleep in hours. This data shows my tracked mood when I had High Sleep (sleep \> 7hours) with High protein (protein \> 43.5 grams) in the green column, High sleep with Low protein in the orange column, Low sleep with High protein in the purple column, and Low sleep with low protein in the pink column.
 
 ## ENVS 115 Energy and the Environment 
 
@@ -17,10 +67,8 @@ Energy and Emissions Workbook
 
 This class was super interesting as its main focus was the utility sector including power and energy sources. This project involved a week-long personal energy audit to assess the scale of my energy consumption and related carbon emissions across electricity use, heating, and transportation. I tracked 10 activities—such as cooking, commuting, and digital device use—logging their duration or distance and estimating the associated energy use and emissions. Using standardized emission factors and Excel-based calculations, I determined the total energy in kilojoules and CO₂ emissions in kilograms for each activity. The project concluded with a written analysis identifying the most energy-intensive and carbon-heavy activities, offering insights into my personal environmental impact and opportunities for reduction.
 
-![](images/115 workbook.png){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
+![Click to enlarge](images/115 workbook.png){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
 
-From this workbook I was able to conclude that driving and cooking were my highest emitting activities throughout the week. Part of this assignment was to calculate the CO2 emissions from a recent trip you went on and compare it to your weekly output. That summer I had driven to Seattle WA from Santa Barbara and my emissions from that road trip we almost 100x more than my weekly output.
+From this workbook I was able to conclude that driving and cooking were my highest emitting activities throughout the week. Part of this assignment was to calculate the CO2 emissions from a recent trip you went on and compare it to your weekly output. That summer I had driven to Seattle WA from Santa Barbara and my emissions from that road trip we almost 100x more than my weekly output. This project help me put into perspective the real harm driving has on the environment.
 
-![](images/115woorkbook2.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
-
-##  
+![Click to enlarge](images/115woorkbook2.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
