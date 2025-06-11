@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "New- CYOP/about.html",
-    "href": "New- CYOP/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -28,6 +21,13 @@
     "text": "Experience\n\nThe Green Initiative Fund (TGIF)\nIn 2023 I was on a team of 3 UCSB Interns working to make an online inventory system for UCSB’s Surplus sales. This is how the University recycles inventorial items. All items purchchased by the University needs to go through a tedious procurment process before it can be recycled, trashed, or resold through the Surplus process. Me and my team were hired to create a cleaner system to track all outgoing items and also market them to the University and even the Public through the University’s Gateway system. Before our project was funded, this entire process was like a garage sale every Tuesday in a lot. Our goal was to make Items purchasable online to generate more sales.\n\n\nThe Nature Conservancy and the Cheadle Center\nIn the Fall of 2024 I was hired as a “Trail Educator” at the Jack and Laura Dangermond nature preserve located about 40min North of Santa Barbara. Here the goal was to get kids to connect to native California nature. This program targeted the less fortunate schools to get them interested in climate change and general wildife. This was a part of the kids in nature program as well. As a trail educator I led middle schoolers and highschoolers on a 5 mile hike in an Oakland Chapperal where we pointed out native and non native species to the students along the way. This experience truely touched my soul as I felt like I was inspiring young children who don’t get these hiking adventours as much as other schools might provide for thier students. This was by far my favorite experience during my college experience.\n\n\nAdmin Assistant for UCSB Information Technology Services (ITS)\nIn 2024 I accepted a role as an Admin assistant for UCSB’s Information Technology Services department. Here I learned many clerical skills including Excel, Atlassin, Confluence, Canva, Visio ext. I help do digital filing, purchasing, and billing as well as office task to support the department. I also do some departamental planning for events such as UCSB’s annual Forward together event which aims to get the department (who are mostly remote) to bond and get excited as a team."
   },
   {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About Me",
+    "section": "Hobbies!",
+    "text": "Hobbies!\n\nUCSB Burning Skirts\n\nI joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an officer role in a club (social chair), and life long friends.\n\n\nRunning and Hiking\n \nIn the spring of last year, I helped my buddy, Braden Boyles, start a run club to raise for suicide awareness called “Santa Barbarian Run Club”. For this club I designed the T-shirt logo and helped organize runs which was a lot of fun! In November I ran my first 1/2 marathon with my mom, who jump started my running itch. In 2023 I tore my ACL and was unable to run for 6 months. As an active person, this was very hard for me, as this is one of my main stress relievers. Now that I can run again, i never want to stop, and I love getting other people into it as well!"
+  },
+  {
     "objectID": "free for all.html",
     "href": "free for all.html",
     "title": "My Virtual Sketchbook",
@@ -35,81 +35,228 @@
     "text": "When I am not at work or class I love doing art! I started drawing seriously during covid 2020 summer. I was so bored and this hobby filled my time. When I realized I was pretty good at this, I started selling portraits to friends and family members. I made a small buisiness out of it until the demand for constant orders started making me lose the joy and relaxation that I found in art in the first place. I stopped selling custom art orders and now just draw for fun! It is still one of my favorite ways to spend an afternoon.\n\nSome of my Art!\nClick the image to enlarge!\n\n\n\n\n\n\n\n\n\nPencil drawing of my Grandma when she was young\n\n\n\n\n\n\n\nColor pencil drawing of musician Steve Lacy\n\n\n\n\n\n\n\n\n\nA color pencil drawing of musician Kali Uchis.\n\n\n\n\n\n\n\nPencil drawing of Albert Einstien.\n\n\n\n\n\n\n\n\n\nColor pencil drawing of Taylor Swift.\n\n\n\n\n\n\n\nColor pencil drawing of Dua Lipa.\n\n\n\n\n\n\n\n\n\nColor Pencil sketch of a guy.\n\n\n\n\n\n\n\nColor Pencil sketch of a guy and his rat.\n\n\n\n\n\n\n\n\n\nAcrylic painting of Jellies.\n\n\n\n\n\n\n\nColor pencil drawing of a Lady.\n\n\n\n\n\n\n\n\n\nColor Pencil sketch of Kanye West.\n\n\n\n\n\n\n\nColor Pencil sketch of Rhianna."
   },
   {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html",
+    "href": "glightbox-3.3.0/CHANGELOG.html",
+    "title": "Change Log",
+    "section": "",
+    "text": "All notable changes to this project will be documented in this file.\n\n\n\nNew: glightbox types #411\nNew: extend provider regex for ytb shorts #404\nFixed: Fix height calculation for lightbox with description and height set #426\nFixed: Don’t set any font-family #424\n\n\n\n\n\nNew: Support for videos without extension\nUpdated: Plyr to 3.6.12\nFixed: Inline content not centered on tablets #295\nFixed: Duplicated CSS properties #293\nFixed: YouTube video button not clickable on iOS #298\n\n\n\n\n\nNew: Added Avif image support @dramspro\nNew: Add support for responsive images @gaborbsd\nUpdated: playsinline video attribute\nUpdated: url check to allow query parameters in video and images\nFixed: Image description/shadow off on mobile device #268\nFixed: You can zoom next slide image if current slide is not full height #261\nFixed: Draggable option not working with “setElements” #257\n\n\n\n\n\nUpdated: Plyr to 3.6.8\nImproved: JS error when the description attribute is an invalid selector\nFixed: Media Buttons Not responding on Android #233\nFixed: When touch is activated images swipe independently of their descriptions #238\nFixed: Width / Height data attributes do not work for image types #234\nFixed: Adds missing size unit of video description on resize #229\n\n\n\n\n\nNew: Added Aria-hidden on all root elements except the glightbox-container\nFixed: Video in portrait mode is cropped\nFixed: Video always has maxWidth 900px because of hardcoded setting\nFixed: Removed explicit tabindex from navigation buttons\n\n\n\n\n\nFixed: Lightbox playing incorrect video with multiple videos in gallery #187\nFixed: Draggable: false option not working #192\nFixed: Links not working inside inline content in mobile devices\nFixed: moreLength not working correctly on mobile if description has HTML\nAdded: Added plugins option for a future release that will allow extending GLightbox with plugins\nChanged: Plyr fullscreen set to iosNative\nChanged: Renamed skin option to theme for a future release that will allow creating themes like plugins, skin still works but will be replaced in a future relase\n\n\n\n\n\nFixed: Events cleanup on destroy() method causes exception #175\nFixed: “data-title” Getting Overwritten when “title” is present #178\nFixed: IE 11 “Multiple definitions of a property not allowed in strict mode when bundling and minifying glightbox #155\nFixed: Cannot add new slides #166\nFixed: Video not playing on mobile #160\nImproved: Plyr will only be loaded if it’s already used in the site\nNew: Updated PLYR version to 3.6.3\nNew: Added new option “autofocusVideos” to enable all Plyr shortcuts for the video player\nNew: Improved events to use a generic way to access data\nNew: Improved code\n\n\n\n\n\nFixed: IE11 does not support “.includes()”\nFixed: Clicking outside the content to close only works in specific areas\nFixed: openEffect / closeEffect no longer accepting “none”\n\n\n\n\n\nNew: New way to listen for events, the old events will still work but will be removed in a future update. See the Events section in the README\nNew: Added new methods “slidePlayerPause” and “slidePlayerPlay” so in the future they will replace “playSlideVideo” and “stopSlideVideo” to provide support for audio slides in a future update\nNew: Add preventDefault via touchstart on lightbox to prevent navigation swipe\nFixed: e.getAttribute is not a function when there are no nodes in the gallery\n\n\n\n\n\nNew: Option “dragAutoSnap” to control the mouse drag auto close or change slide\nFixed: Multiple galleries not working\nFixed: Setting the elements directly using an object triggered error\n\n\n\n\n\nNew: Option “zoomable” to enable or disable zoomable images\nNew: Option “preload” to enable or disable preloading\nNew: Option “draggable” to go to prev/next slide by mouse dragging. Thanks to @Hirbod for the donation to make this happen\nNew: Option “dragToleranceX” Used with draggable. Number of pixels the user has to drag to go to prev or next slide\nNew: Option “dragToleranceY” Used with draggable. Number of pixels the user has to drag up or down to close the lightbox (Set 0 to disable vertical drag)\nNew: The code was refactored to make it easier to maintain\nFixed: data gallery stopped working\nFixed: iOS bug with Vimeo iframe when fullscreen button pressed\nFixed: “See more” link in the description throws an JS error when clicked\nFixed: Videos not resized vertically when window height was smaller than the window width\n\n\n\n\n\nFixed: vertical scrolling of descriptions @zothynine\nFixed: CSS properties bug\nFixed: Passing null as selector throws an exception\n\n\n\n\n\nNew: New methods to access player instances “getSlidePlayerInstance(index or node) and getAllPlayers”\nNew: Access player instance from afterSlideChange and beforeSlideChange”\nNew: New Method removeSlide(1) remove slide at the specified index, it works even when the lightbox is open\nNew: insertSlide now works even when the lightbox is open\nNew: Added Accesibility features to slides\nNew: Enabled touchNavigation for all devices that support touch events and not only mobile devices\nChanged: afterSlideLoad and beforeSlideLoad methods to follow the same variables as afterSlideChange, beforeSlideChange\nFixed: Calling destroy() throws an error when modal is not open\nFixed: Navigation not disabled correctly when only one slide\n\n\n\n\n\nNew: Now you can define width and height as 900px, 95%, 100vw, 100vh so you can have full screen content\nNew: Now you can define custom html or a node in the slide data to append it to the slide (view the API section)\nNew: Now you can use any attribute as selector for example ‘.glightbox’ or ‘data-glightbox’ or ‘*[data-glightbox]’\nNew: Method “openAt” you can open the lightbox at specific index eg: lightbox.openAt(2);\nNew: Method “insertSlide” that allows you to append a slide at specified index\nFixed Tab Key Doesn’t Work on Form Within GLightbox Inline Content\nFixed Scrolling Description triggers closing the lightbox on touch devices\nFixed Page jumps depending on page scrollbar\nFixed Overriding default plyr settings does not merge correctly\nFixed fullscreen video button on ios\nMoved plyr.ratio to plyr.config.ratio\n\n\n\n\n\nNew: Loop, renamed loopAtEnd to loop and now works in both directions\nNew: added touchFollowAxis, for mobile when dragging the media will follow the same axis, set to false to move media as you wish\nNew: added jpe format\nFixed .mov videos not recognized as videos\n\n\n\n\n\nFixed some errors when zooming and dragging images\nFixed description position not respected when configured globally\nFixed local videos not resized correctly when entered fullscreen\n\n\n\n\n\nNew: Zooming images. Now you can zoom images on desktop if image is too large\nNew: Now you can also define the slide description using the content of any div you want.\nNew: Replaced png icons with svg and added options to customize them.\nFixed responsive videos not resizing correctly when resizing the window vertically\nFixed responsive images not resizing correctly if they have description and the window height is lower that the slide height\nFixed youtube video not detected correctly for urls like youtube(-nocookie).com/embed/…\n\n\n\n\n\nNew: Plyr player, we have changed to this player so that way only one api is managed instead of 3\nNew: Added tabindex accesibility to loop the controls with the tab key\nNew: Inside inline content you can close the lightbox by adding the class gtrigger-close to any element\nFixed StartAt not taking specified index\nRemoved JWPlayer because that player implemented some restrictions unless you pay for a license\nImproved mobile touch events, swipe, move, zoom, etc.\nChanged: Youtube now by default uses youtube-nocookie.com, you can enable cookies in the config with youtube.nocookie to false\nRemoved option videosHeight. The height is automatic depending the video width and ratio.\nRemoved Gulp and replaced for pure nodejs scripts\nImproved documentation\n\n\n\n\n\nFixed Mobile navigation\nFixed slide width for external sources\n\n\n\n\n\nNew: Delegated permissions to cross-origin iframes (for the new browsers autoplay restrictions)\nFixed youtube, vimeo autoplay when changing slides\nFixed lightbox won’t fit screen with description\nFixed Removed global body variable that was causing some problems\n\n\n\n\n\nAdded svg to source types so it can be displayed as an image @tuomassalo\nAdded contributing file\nUpdated dependencies @tuomassalo.\nRemoved demo folder from npm\n\n\n\n\n\nNew: You can define each slide option in a different data attribute (data-title=“example” data-description=“…”)\nFixed youtube and vimeo autoplay when opened for the first time\nFixed global slide params not working\nFixed some issues on IE11\nFixed using characters : or ; in slide description\n\n\n\n\n\nNew: Added reload method, useful when injecting content with ajax, cloning nodes, etc.\nFixed closeButton setting not removing the element\nFixed video not displayed on mobile devices\n\n\n\n\n\nNew: Now you can set individual width and height for each slide with inlines or iframes.\nNew: Now you can set individual source types for each slide (‘type’: ‘image’ | ‘iframe’ | ‘video’ | ‘inline’ | ’external).\nNew: Published on npm\nNew: Published on bower\nFixed afterSlideLoad only triggered one time for all the slides\nFixed a small space between the image and description when is set to top or bottom\n\n\n\n\n\nNew: Added none as a new option to disable open, close and slide animations\nNew: Added new options (touchNavigation, keyboardNavigation, closeOnOutsideClick) to enable or disable user interaction\nFixed open and close effect not taking a custom animation\nFixed an error when calling the destroy method and no videos were present in the slider\n\n\n\n\n\nImproved the open method so it can be called without duplicating the structure and events\nNew: The original node is passed to events like beforeSlideChange, afterSlideChange, etc.\n\n\n\n\n\nNew: Added option moreLength to control the number of characters in the description for mobile devices\n\n\n\n\n\nFixed instance not returned and unable to call public methods\n\n\n\n\n\nFixed large images not displayed correctly\n\n\n\n\n\nInitial release"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: glightbox types #411\nNew: extend provider regex for ytb shorts #404\nFixed: Fix height calculation for lightbox with description and height set #426\nFixed: Don’t set any font-family #424"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-1",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-1",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Support for videos without extension\nUpdated: Plyr to 3.6.12\nFixed: Inline content not centered on tablets #295\nFixed: Duplicated CSS properties #293\nFixed: YouTube video button not clickable on iOS #298"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-2",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-2",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Added Avif image support @dramspro\nNew: Add support for responsive images @gaborbsd\nUpdated: playsinline video attribute\nUpdated: url check to allow query parameters in video and images\nFixed: Image description/shadow off on mobile device #268\nFixed: You can zoom next slide image if current slide is not full height #261\nFixed: Draggable option not working with “setElements” #257"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-3",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-3",
+    "title": "Change Log",
+    "section": "",
+    "text": "Updated: Plyr to 3.6.8\nImproved: JS error when the description attribute is an invalid selector\nFixed: Media Buttons Not responding on Android #233\nFixed: When touch is activated images swipe independently of their descriptions #238\nFixed: Width / Height data attributes do not work for image types #234\nFixed: Adds missing size unit of video description on resize #229"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-4",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-4",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Added Aria-hidden on all root elements except the glightbox-container\nFixed: Video in portrait mode is cropped\nFixed: Video always has maxWidth 900px because of hardcoded setting\nFixed: Removed explicit tabindex from navigation buttons"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-5",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-5",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed: Lightbox playing incorrect video with multiple videos in gallery #187\nFixed: Draggable: false option not working #192\nFixed: Links not working inside inline content in mobile devices\nFixed: moreLength not working correctly on mobile if description has HTML\nAdded: Added plugins option for a future release that will allow extending GLightbox with plugins\nChanged: Plyr fullscreen set to iosNative\nChanged: Renamed skin option to theme for a future release that will allow creating themes like plugins, skin still works but will be replaced in a future relase"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-6",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-6",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed: Events cleanup on destroy() method causes exception #175\nFixed: “data-title” Getting Overwritten when “title” is present #178\nFixed: IE 11 “Multiple definitions of a property not allowed in strict mode when bundling and minifying glightbox #155\nFixed: Cannot add new slides #166\nFixed: Video not playing on mobile #160\nImproved: Plyr will only be loaded if it’s already used in the site\nNew: Updated PLYR version to 3.6.3\nNew: Added new option “autofocusVideos” to enable all Plyr shortcuts for the video player\nNew: Improved events to use a generic way to access data\nNew: Improved code"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-7",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-7",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed: IE11 does not support “.includes()”\nFixed: Clicking outside the content to close only works in specific areas\nFixed: openEffect / closeEffect no longer accepting “none”"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-8",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-8",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: New way to listen for events, the old events will still work but will be removed in a future update. See the Events section in the README\nNew: Added new methods “slidePlayerPause” and “slidePlayerPlay” so in the future they will replace “playSlideVideo” and “stopSlideVideo” to provide support for audio slides in a future update\nNew: Add preventDefault via touchstart on lightbox to prevent navigation swipe\nFixed: e.getAttribute is not a function when there are no nodes in the gallery"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-9",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-9",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Option “dragAutoSnap” to control the mouse drag auto close or change slide\nFixed: Multiple galleries not working\nFixed: Setting the elements directly using an object triggered error"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-10",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-10",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Option “zoomable” to enable or disable zoomable images\nNew: Option “preload” to enable or disable preloading\nNew: Option “draggable” to go to prev/next slide by mouse dragging. Thanks to @Hirbod for the donation to make this happen\nNew: Option “dragToleranceX” Used with draggable. Number of pixels the user has to drag to go to prev or next slide\nNew: Option “dragToleranceY” Used with draggable. Number of pixels the user has to drag up or down to close the lightbox (Set 0 to disable vertical drag)\nNew: The code was refactored to make it easier to maintain\nFixed: data gallery stopped working\nFixed: iOS bug with Vimeo iframe when fullscreen button pressed\nFixed: “See more” link in the description throws an JS error when clicked\nFixed: Videos not resized vertically when window height was smaller than the window width"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-11",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-11",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed: vertical scrolling of descriptions @zothynine\nFixed: CSS properties bug\nFixed: Passing null as selector throws an exception"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-12",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-12",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: New methods to access player instances “getSlidePlayerInstance(index or node) and getAllPlayers”\nNew: Access player instance from afterSlideChange and beforeSlideChange”\nNew: New Method removeSlide(1) remove slide at the specified index, it works even when the lightbox is open\nNew: insertSlide now works even when the lightbox is open\nNew: Added Accesibility features to slides\nNew: Enabled touchNavigation for all devices that support touch events and not only mobile devices\nChanged: afterSlideLoad and beforeSlideLoad methods to follow the same variables as afterSlideChange, beforeSlideChange\nFixed: Calling destroy() throws an error when modal is not open\nFixed: Navigation not disabled correctly when only one slide"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-13",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-13",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Now you can define width and height as 900px, 95%, 100vw, 100vh so you can have full screen content\nNew: Now you can define custom html or a node in the slide data to append it to the slide (view the API section)\nNew: Now you can use any attribute as selector for example ‘.glightbox’ or ‘data-glightbox’ or ‘*[data-glightbox]’\nNew: Method “openAt” you can open the lightbox at specific index eg: lightbox.openAt(2);\nNew: Method “insertSlide” that allows you to append a slide at specified index\nFixed Tab Key Doesn’t Work on Form Within GLightbox Inline Content\nFixed Scrolling Description triggers closing the lightbox on touch devices\nFixed Page jumps depending on page scrollbar\nFixed Overriding default plyr settings does not merge correctly\nFixed fullscreen video button on ios\nMoved plyr.ratio to plyr.config.ratio"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-14",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-14",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Loop, renamed loopAtEnd to loop and now works in both directions\nNew: added touchFollowAxis, for mobile when dragging the media will follow the same axis, set to false to move media as you wish\nNew: added jpe format\nFixed .mov videos not recognized as videos"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-15",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-15",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed some errors when zooming and dragging images\nFixed description position not respected when configured globally\nFixed local videos not resized correctly when entered fullscreen"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-16",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-16",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Zooming images. Now you can zoom images on desktop if image is too large\nNew: Now you can also define the slide description using the content of any div you want.\nNew: Replaced png icons with svg and added options to customize them.\nFixed responsive videos not resizing correctly when resizing the window vertically\nFixed responsive images not resizing correctly if they have description and the window height is lower that the slide height\nFixed youtube video not detected correctly for urls like youtube(-nocookie).com/embed/…"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-17",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-17",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Plyr player, we have changed to this player so that way only one api is managed instead of 3\nNew: Added tabindex accesibility to loop the controls with the tab key\nNew: Inside inline content you can close the lightbox by adding the class gtrigger-close to any element\nFixed StartAt not taking specified index\nRemoved JWPlayer because that player implemented some restrictions unless you pay for a license\nImproved mobile touch events, swipe, move, zoom, etc.\nChanged: Youtube now by default uses youtube-nocookie.com, you can enable cookies in the config with youtube.nocookie to false\nRemoved option videosHeight. The height is automatic depending the video width and ratio.\nRemoved Gulp and replaced for pure nodejs scripts\nImproved documentation"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-18",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-18",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed Mobile navigation\nFixed slide width for external sources"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-19",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-19",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Delegated permissions to cross-origin iframes (for the new browsers autoplay restrictions)\nFixed youtube, vimeo autoplay when changing slides\nFixed lightbox won’t fit screen with description\nFixed Removed global body variable that was causing some problems"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-20",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-20",
+    "title": "Change Log",
+    "section": "",
+    "text": "Added svg to source types so it can be displayed as an image @tuomassalo\nAdded contributing file\nUpdated dependencies @tuomassalo.\nRemoved demo folder from npm"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-21",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-21",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: You can define each slide option in a different data attribute (data-title=“example” data-description=“…”)\nFixed youtube and vimeo autoplay when opened for the first time\nFixed global slide params not working\nFixed some issues on IE11\nFixed using characters : or ; in slide description"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-22",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-22",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Added reload method, useful when injecting content with ajax, cloning nodes, etc.\nFixed closeButton setting not removing the element\nFixed video not displayed on mobile devices"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-23",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-23",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Now you can set individual width and height for each slide with inlines or iframes.\nNew: Now you can set individual source types for each slide (‘type’: ‘image’ | ‘iframe’ | ‘video’ | ‘inline’ | ’external).\nNew: Published on npm\nNew: Published on bower\nFixed afterSlideLoad only triggered one time for all the slides\nFixed a small space between the image and description when is set to top or bottom"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-24",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-24",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Added none as a new option to disable open, close and slide animations\nNew: Added new options (touchNavigation, keyboardNavigation, closeOnOutsideClick) to enable or disable user interaction\nFixed open and close effect not taking a custom animation\nFixed an error when calling the destroy method and no videos were present in the slider"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-25",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-25",
+    "title": "Change Log",
+    "section": "",
+    "text": "Improved the open method so it can be called without duplicating the structure and events\nNew: The original node is passed to events like beforeSlideChange, afterSlideChange, etc."
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-26",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-26",
+    "title": "Change Log",
+    "section": "",
+    "text": "New: Added option moreLength to control the number of characters in the description for mobile devices"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-27",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-27",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed instance not returned and unable to call public methods"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-28",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-28",
+    "title": "Change Log",
+    "section": "",
+    "text": "Fixed large images not displayed correctly"
+  },
+  {
+    "objectID": "glightbox-3.3.0/CHANGELOG.html#section-29",
+    "href": "glightbox-3.3.0/CHANGELOG.html#section-29",
+    "title": "Change Log",
+    "section": "",
+    "text": "Initial release"
+  },
+  {
     "objectID": "project page.html",
     "href": "project page.html",
     "title": "Projects",
     "section": "",
     "text": "UCSB has been an overall great experience, but my favorite classes were the ones that gave me real life skills that I will be able to apply to later jobs. Although these classes were often more time consuming and frustrating, I feel they have added more to my repitoure than the easy classes i could have chosen instead."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Marlaina Lascano",
-    "section": "",
-    "text": "Hello!\nI’m Marlaina Lascano — a UCSB Environmental Science undergraduate (Graduating in 10 days), field researcher, and creative force. From the coasts of California to remote ecosystems like the Dangermond Preserve, I’m passionate about sustainability, science communication, and community-driven change. I also have many hobbies that keep me busy and challenged!"
-  },
-  {
-    "objectID": "New- CYOP/index.html",
-    "href": "New- CYOP/index.html",
-    "title": "marlainalascano.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "free for all.html#education",
-    "href": "free for all.html#education",
-    "title": "free for all",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "free for all.html#experience",
-    "href": "free for all.html#experience",
-    "title": "Hobbies",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "free for all.html#ucsb-burning-skirts",
-    "href": "free for all.html#ucsb-burning-skirts",
-    "title": "Interests",
-    "section": "",
-    "text": "I joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an ofifcer role in a club (social chair), and life long friends."
-  },
-  {
-    "objectID": "free for all.html#portrait-drawing",
-    "href": "free for all.html#portrait-drawing",
-    "title": "Interests",
-    "section": "",
-    "text": "During the summer of 2020, during Covid, I spent a lot of time drawing portraits and other forms of art."
-  },
-  {
-    "objectID": "free for all.html#portrait-drawing-1",
-    "href": "free for all.html#portrait-drawing-1",
-    "title": "Interests",
-    "section": "",
-    "text": "I enjoy running and hiking and all things active"
-  },
-  {
-    "objectID": "free for all.html#running-and-hiking",
-    "href": "free for all.html#running-and-hiking",
-    "title": "Interests",
-    "section": "",
-    "text": "I enjoy running and hiking and all things active"
-  },
-  {
-    "objectID": "project page.html#some-photos-of-my-hobbies",
-    "href": "project page.html#some-photos-of-my-hobbies",
-    "title": "Interests",
-    "section": "Some Photos of my Hobbies",
-    "text": "Some Photos of my Hobbies\n\n\n\n\n\n\n\n\n\nPencil drawing of my Grandma when she was young\n\n\n\n\n\n\n\nColor pencil drawing of musician Steve Lacy\n\n\n\n\n\n\n\n\n\nA color pencil drawing of musician Kali Uchis.\n\n\n\n\n\n\n\nPencil drawing of Albert Einstien.\n\n\n\n\n\n\n\nUCSB Burning Skirts\n\nI joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an ofifcer role in a club (social chair), and life long friends.\n\n\nRunning and Hiking\n \nI enjoy running and hiking and all things active\n\n\n\nHow I made this Website\nI made this website with Quarto, R, and GitHub. Check out my repository here {{&lt; fa arrow-right \"Right Pointing arrow\" &gt;}} {{&lt; fa brands github \"The GitHub octocat logo\" &gt;}}.\nAnd check out the instructions by Sam Csick I used here."
-  },
-  {
-    "objectID": "project page.html#section",
-    "href": "project page.html#section",
-    "title": "Interests",
-    "section": "",
-    "text": "When I am not at work or class I have many hobbies to fill my time!\n\n\n\nI joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an officer role in a club (social chair), and life long friends.\n\n\n\n\n\n\n\n\n\n\n\n\nPencil drawing of my Grandma when she was young\n\n\n\n\n\n\n\nColor pencil drawing of musician Steve Lacy\n\n\n\n\n\n\n\n\n\nA color pencil drawing of musician Kali Uchis.\n\n\n\n\n\n\n\nPencil drawing of Albert Einstien.\n\n\n\n\n\n\n\n\n \nI enjoy running and hiking and all things active\n\n\n\nI made this website with Quarto, R, and GitHub. Check out my repository here {{&lt; fa arrow-right \"Right Pointing arrow\" &gt;}} {{&lt; fa brands github \"The GitHub octocat logo\" &gt;}}.\nAnd check out the instructions by Sam Csick I used here."
   },
   {
     "objectID": "project page.html#ucsb-courses-and-projects",
@@ -133,45 +280,52 @@
     "text": "ENVS 115 Energy and the Environment\nEnergy and Emissions Workbook\nThis class was super interesting as its main focus was the utility sector including power and energy sources. This project involved a week-long personal energy audit to assess the scale of my energy consumption and related carbon emissions across electricity use, heating, and transportation. I tracked 10 activities—such as cooking, commuting, and digital device use—logging their duration or distance and estimating the associated energy use and emissions. Using standardized emission factors and Excel-based calculations, I determined the total energy in kilojoules and CO₂ emissions in kilograms for each activity. The project concluded with a written analysis identifying the most energy-intensive and carbon-heavy activities, offering insights into my personal environmental impact and opportunities for reduction.\n\n\n\n\n\n\n\nClick to enlarge\n\n\nFrom this workbook I was able to conclude that driving and cooking were my highest emitting activities throughout the week. Part of this assignment was to calculate the CO2 emissions from a recent trip you went on and compare it to your weekly output. That summer I had driven to Seattle WA from Santa Barbara and my emissions from that road trip we almost 100x more than my weekly output. This project help me put into perspective the real harm driving has on the environment.\n\n\n\n\n\n\n\nClick to enlarge"
   },
   {
-    "objectID": "about.html#the-green-initiative-fund-tgif",
-    "href": "about.html#the-green-initiative-fund-tgif",
-    "title": "About Me",
-    "section": "The Green Initiative Fund (TGIF)",
-    "text": "The Green Initiative Fund (TGIF)\nIn 2023 I was on a team of 3 UCSB Interns working to make an online inventory system for UCSB’s Surplus sales. This is how the University recycles inventorial items. All items purchchased by the University needs to go through a tedious procurment process before it can be recycled, trashed, or resold through the Surplus process. Me and my team were hired to create a cleaner system to track all outgoing items and also market them to the University and even the Public through the University’s Gateway system. Before our project was funded, this entire process was like a garage sale every Tuesday in a lot. Our goal was to make Items purchasable online to generate more sales."
+    "objectID": "glightbox-3.3.0/LICENSE.html",
+    "href": "glightbox-3.3.0/LICENSE.html",
+    "title": "Marlaina Lascano",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2018 Biati Digital https://www.biati.digital\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "about.html#the-nature-conservancy-and-the-cheadle-center",
-    "href": "about.html#the-nature-conservancy-and-the-cheadle-center",
-    "title": "About Me",
-    "section": "The Nature Conservancy and the Cheadle Center",
-    "text": "The Nature Conservancy and the Cheadle Center\nIn the Fall of 2024 I was hired as a “Trail Educator” at the Jack and Laura Dangermond nature preserve located about 40min North of Santa Barbara. Here the goal was to get kids to connect to native California nature. This program targeted the less fortunate schools to get them interested in climate change and general wildife. This was a part of the kids in nature program as well. As a trail educator I led middle schoolers and highschoolers on a 5 mile hike in an Oakland Chapperal where we pointed out native and non native species to the students along the way. This experience truely touched my soul as I felt like I was inspiring young children who don’t get these hiking adventours as much as other schools might provide for thier students. This was by far my favorite experience during my college experience."
+    "objectID": "glightbox-3.3.0/CONTRIBUTING.html",
+    "href": "glightbox-3.3.0/CONTRIBUTING.html",
+    "title": "Contributing to GLightbox.js",
+    "section": "",
+    "text": "Please read these guidelines before contributing code.\n\n\n\nFork and clone the repository\nnpm install\nnpm run watch\nTo update js and css files, use the src folder: src/js/glightbox.js and src/postcss/glightbox.css These files will be compiled automatically with every change to the dist folder (do not modify the dist files directly)\n\n\n\n\nWhen fixing a bug please make sure to test it in several browsers including ie11. If you are not able to do so, mention that in a PR comment, so other contributors can do it. once your code is working please run the following command “eslint src/js” to verify that your code is following the same coding standards\n\n\n\nWhen implementing a feature please create an issue first explaining your idea and asking whether there’s need for such a feature. Remember the script’s core philosophy is to stay simple and minimal, doing one thing and doing it right.\n\n\n\n\nFollow the same coding style.\nRun eslint to verify your code, run the following command “eslint src/js” and fix any error you find in your code\nDO NOT commit changes in the dist directory, this files are created automatically.\nFollow Git best practices (especially use meaningful commit messages).\nDescribe thoroughly you work in a PR comment.\nBe patient and understanding. It’s a side project, done in free time.\n\nThank you to everyone who has contributed to GLightbox.js!"
   },
   {
-    "objectID": "about.html#admin-assistant-for-ucsb-information-technology-services-its",
-    "href": "about.html#admin-assistant-for-ucsb-information-technology-services-its",
-    "title": "About Me",
-    "section": "Admin Assistant for UCSB Information Technology Services (ITS)",
-    "text": "Admin Assistant for UCSB Information Technology Services (ITS)\nIn 2024 I accepted a role as an Admin assistant for UCSB’s Information Technology Services department. Here I learned many clerical skills including Excel, Atlassin, Confluence, Canva, Visio ext. I help do digital filing, purchasing, and billing as well as office task to support the department. I also do some departamental planning for events such as UCSB’s annual Forward together event which aims to get the department (who are mostly remote) to bond and get excited as a team."
+    "objectID": "glightbox-3.3.0/CONTRIBUTING.html#nut_and_bolt-setting-up-the-development-environment",
+    "href": "glightbox-3.3.0/CONTRIBUTING.html#nut_and_bolt-setting-up-the-development-environment",
+    "title": "Contributing to GLightbox.js",
+    "section": "",
+    "text": "Fork and clone the repository\nnpm install\nnpm run watch\nTo update js and css files, use the src folder: src/js/glightbox.js and src/postcss/glightbox.css These files will be compiled automatically with every change to the dist folder (do not modify the dist files directly)"
   },
   {
-    "objectID": "about.html#general",
-    "href": "about.html#general",
-    "title": "About Me",
-    "section": "General",
-    "text": "General\nI grew up in Turlock, CA with my 2 parents (Chris and Julie) and my 3 siblings (Ben, Jonah, and Aubrey)."
+    "objectID": "glightbox-3.3.0/CONTRIBUTING.html#bug-fixing-a-bug",
+    "href": "glightbox-3.3.0/CONTRIBUTING.html#bug-fixing-a-bug",
+    "title": "Contributing to GLightbox.js",
+    "section": "",
+    "text": "When fixing a bug please make sure to test it in several browsers including ie11. If you are not able to do so, mention that in a PR comment, so other contributors can do it. once your code is working please run the following command “eslint src/js” to verify that your code is following the same coding standards"
   },
   {
-    "objectID": "about.html#clubs",
-    "href": "about.html#clubs",
-    "title": "About Me",
-    "section": "Clubs",
-    "text": "Clubs\n\nUCSB Burning Skirts\n\nI joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an officer role in a club (social chair), and life long friends."
+    "objectID": "glightbox-3.3.0/CONTRIBUTING.html#tada-proposing-a-change",
+    "href": "glightbox-3.3.0/CONTRIBUTING.html#tada-proposing-a-change",
+    "title": "Contributing to GLightbox.js",
+    "section": "",
+    "text": "When implementing a feature please create an issue first explaining your idea and asking whether there’s need for such a feature. Remember the script’s core philosophy is to stay simple and minimal, doing one thing and doing it right."
   },
   {
-    "objectID": "about.html#hobbies",
-    "href": "about.html#hobbies",
-    "title": "About Me",
-    "section": "Hobbies!",
-    "text": "Hobbies!\n\nUCSB Burning Skirts\n\nI joined UCSB’s Club Frisbee team my freshman year and boy am I glad I did. This team has given me so many experiences whether that be traveling, a consistent workout schedule, an officer role in a club (social chair), and life long friends.\n\n\nRunning and Hiking\n \nIn the spring of last year, I helped my buddy, Braden Boyles, start a run club to raise for suicide awareness called “Santa Barbarian Run Club”. For this club I designed the T-shirt logo and helped organize runs which was a lot of fun! In November I ran my first 1/2 marathon with my mom, who jump started my running itch. In 2023 I tore my ACL and was unable to run for 6 months. As an active person, this was very hard for me, as this is one of my main stress relievers. Now that I can run again, i never want to stop, and I love getting other people into it as well!"
+    "objectID": "glightbox-3.3.0/CONTRIBUTING.html#pencil-before-you-open-a-pull-request",
+    "href": "glightbox-3.3.0/CONTRIBUTING.html#pencil-before-you-open-a-pull-request",
+    "title": "Contributing to GLightbox.js",
+    "section": "",
+    "text": "Follow the same coding style.\nRun eslint to verify your code, run the following command “eslint src/js” and fix any error you find in your code\nDO NOT commit changes in the dist directory, this files are created automatically.\nFollow Git best practices (especially use meaningful commit messages).\nDescribe thoroughly you work in a PR comment.\nBe patient and understanding. It’s a side project, done in free time.\n\nThank you to everyone who has contributed to GLightbox.js!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marlaina Lascano",
+    "section": "",
+    "text": "Hello!\nI’m Marlaina Lascano — a UCSB Environmental Science undergraduate (Graduating in 10 days), field researcher, and creative force. From the coasts of California to remote ecosystems like the Dangermond Preserve, I’m passionate about sustainability, science communication, and community-driven change. I also have many hobbies that keep me busy and challenged!"
   }
 ]
