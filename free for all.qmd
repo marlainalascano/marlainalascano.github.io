@@ -1,18 +1,36 @@
 ---
-title: "free for all"
-about:
-  template: broadside
-  image: Art_1.jpg
+title: "My Virtual Sketchbook"
+lightbox: auto
 ---
 
-Hobbies
+When I am not at work or class I have many hobbies to fill my time!
 
-Club Frisbee
+### Some of my Art!
 
-Art
+Click the image to enlarge!
 
-```{r}
+::: {layout="[[1, 1], [1, 1]]"}
+![Pencil drawing of my Grandma when she was young](Art_6.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies"}
 
+![Color pencil drawing of musician Steve Lacy](Art_3.jpeg){alt="Color pencil drawing of musician Steve Lacy" group="Hobbies"}
 
+![A color pencil drawing of musician Kali Uchis.](Art_4.jpg){alt="A sheepshead I photographed off of Devereux Beach, Fall 2023." group="Hobbies"}
 
-```
+![Pencil drawing of Albert Einstien.](Art_1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Color pencil drawing of Taylor Swift.](Art_5.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Color pencil drawing of Dua Lipa.](Screenshot_20220907_190425.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Color pencil drawing of a Lady.](2020-08-25 05.07.31 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Acrylic painting of Jellies.](2020-09-06-124747620.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Color Pencil sketch of a guy and his rat.](2020-08-24 04.47.44 1.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+
+![Color Pencil sketch of Kanye West.](Screenshot_20220803-161423_Instagram.jpg){alt="My roomate and I backpacking off of East Camino Cielo, Winter 2024." group="Hobbies"}
+:::
+
+### How I made this Website
+
+I made this website with Quarto, R, and GitHub.
