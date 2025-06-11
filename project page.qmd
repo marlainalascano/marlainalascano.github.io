@@ -1,11 +1,26 @@
 ---
-title: "project page"
+title: "Projects"
+lightbox: auto
 ---
 
-Project Page:
+## UCSB Courses and Projects
 
-```{r}
-#insert ggplot for Homework 3
-```
+UCSB has been an overall great experience, but my favorite classes were the ones thaat gave me real life skills that I will be able to apply to later jobs. Although these classes were often more time consuming and frustrating, I feel they have added more to my repitoure than the easy classes i could have chosen instead.
 
-Protein intake vs Sleep Study
+## ENVS 193 DS: Statistics for Environmental Science
+
+![Figure 1. Average Mood by Sleep and Protein Intake This figure shows the spread of my tracked moods based on my protein intake in grams and my sleep in hours. This data shows my tracked mood when I had High Sleep (sleep \> 7hours) with High protein (protein \> 43.5 grams) in the green column, High sleep with Low protein in the orange column, Low sleep with High protein in the purple column, and Low sleep with low protein in the pink column.](images/193 Data table 1.png){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
+
+## ENVS 115 Energy and the Environment 
+
+Energy and Emissions Workbook
+
+This class was super interesting as its main focus was the utility sector including power and energy sources. This project involved a week-long personal energy audit to assess the scale of my energy consumption and related carbon emissions across electricity use, heating, and transportation. I tracked 10 activities—such as cooking, commuting, and digital device use—logging their duration or distance and estimating the associated energy use and emissions. Using standardized emission factors and Excel-based calculations, I determined the total energy in kilojoules and CO₂ emissions in kilograms for each activity. The project concluded with a written analysis identifying the most energy-intensive and carbon-heavy activities, offering insights into my personal environmental impact and opportunities for reduction.
+
+![](images/115 workbook.png){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
+
+From this workbook I was able to conclude that driving and cooking were my highest emitting activities throughout the week. Part of this assignment was to calculate the CO2 emissions from a recent trip you went on and compare it to your weekly output. That summer I had driven to Seattle WA from Santa Barbara and my emissions from that road trip we almost 100x more than my weekly output.
+
+![](images/115woorkbook2.jpg){alt="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024" group="Hobbies" fig-align="center"}
+
+##  
